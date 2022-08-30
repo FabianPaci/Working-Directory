@@ -2,4 +2,4 @@
 Curated study notes
 
 # Temporary Domain & Host
-https://fabianpaci.github.io/Working-Directory/
+https://aymey.github.io/Working-Directory/
