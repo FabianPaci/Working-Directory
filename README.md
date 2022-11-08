@@ -1,5 +1,5 @@
 # Math-Notes
 Curated study notes
 
-# Temporary Domain & Host
-https://aymey.github.io/Math-Notes/
+# Temporary Host
+https://aymey.github.io/Math-Notes/output/Math-Notes.pdf
