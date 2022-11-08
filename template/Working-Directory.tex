@@ -1,0 +1,57 @@
+% use "pdflatex -output-directory=../output Working-Directory.tex" to compile
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Working}\\Directory}
+\author{\huge{By me (Thanks to for the template \href{https://github.com/SirCharlieMars/dotfiles/tree/master/latex_template}{SirCharlieMars})}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{}
+\section{Indices}
+\dfn{Index Laws}{
+    \begin{enumerate}
+        \item $a^m \times a^n = a^{n + m}$
+        \item $a^m \div a^n = a^{n - m}$
+        \item $(a^m)^n = a^{m \times n}$
+        \item $a^{-m} = \frac{1}{a^m}$
+        \item $a^0 = 1$
+        \item $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
+    \end{enumerate}
+}
+
+
+\ex{Laws in action}{
+    \begin{enumerate}
+        \item $2^3 \times 2^7 = 2^{10}\)
+        \item $\frac{3^6}{3^2} = 3^4\)
+        \item $(5^2)^5 = 5^{10}\)
+        \item $7 \times 2^{-2} = \frac{7}{2^2}\)
+        \item $45^0 = 1\)
+        \item $5^{\frac{-3}{7}} = \frac{1}{\root 7 \of {5^3}}\)
+    \end{enumerate}
+}
+\nt{Indices are used extremely frequently and there are often multiple laws hidden in each question}
+
+\section{Logarithms (logs)}
+\dfn{Log Laws}{
+    \begin{enumerate}
+        \item $log_{(a)}(xy) = \log_{(a)}(x) + \log_{(a)}(y)\)
+        \item $log_{(a)}(\frac{x}{y}) = \log_{(a)}(x) - \log_{a}(y)\)
+        \item $log_{(a)}(x^n) = n\log_{(a)}(x) => \log_{(a)}(\frac{1}{x}) = -\log_{(a)}(x)\)
+        \item $log_{(a)}(a) = 1\)
+        \item $log_{(a)}(1) = 0\)
+    \end{enumerate}
+    }
+\end{document}
