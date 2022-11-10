@@ -16,10 +16,14 @@
 % \pdfbookmark[<level>]{<title>}{<dest>}
 \pdfbookmark[section]{\contentsname}{toc}
 \tableofcontents
-\pagebreak
+
+
+\pagebreak % 1.1
+
 
 \chapter{}
 \section{Indices}
+
 \dfn{Index Laws}{
     \begin{enumerate}
         \item $a^m \times a^n = a^{n + m}$
@@ -31,27 +35,54 @@
     \end{enumerate}
 }
 
-
-\ex{Laws in action}{
+\ex{Laws In Action}{
     \begin{enumerate}
-        \item $2^3 \times 2^7 = 2^{10}\)
-        \item $\frac{3^6}{3^2} = 3^4\)
-        \item $(5^2)^5 = 5^{10}\)
-        \item $7 \times 2^{-2} = \frac{7}{2^2}\)
-        \item $45^0 = 1\)
-        \item $5^{\frac{-3}{7}} = \frac{1}{\root 7 \of {5^3}}\)
+        \item $2^3 \times 2^7 = 2^{10}$
+        \item $\frac{3^6}{3^2} = 3^4$
+        \item $(5^2)^5 = 5^{10}$
+        \item $7 \times 2^{-2} = \frac{7}{2^2}$
+        \item $45^0 = 1$
+        \item $5^{\frac{-3}{7}} = \frac{1}{\root 7 \of {5^3}}$
     \end{enumerate}
 }
 \nt{Indices are used extremely frequently and there are often multiple laws hidden in each question}
 
+
+\pagebreak % 1.2
+
+
 \section{Logarithms (logs)}
-\dfn{Log Laws}{
+
+\dfn{Principle}{The general equation is: $$log_{(a)}(y) = x \leftrightarrow a^x = y$$ For example: $$log_{10}1 = 0 \leftrightarrow 10^0 = 1$$}
+\dfn{Laws}{
     \begin{enumerate}
-        \item $log_{(a)}(xy) = \log_{(a)}(x) + \log_{(a)}(y)\)
-        \item $log_{(a)}(\frac{x}{y}) = \log_{(a)}(x) - \log_{a}(y)\)
-        \item $log_{(a)}(x^n) = n\log_{(a)}(x) => \log_{(a)}(\frac{1}{x}) = -\log_{(a)}(x)\)
-        \item $log_{(a)}(a) = 1\)
-        \item $log_{(a)}(1) = 0\)
+    %% contains in and out of brackets
+        \item $\log_{(a)}(x) + \log_{(a)}(y) = \log_{(a)}(xy)$
+        % \item $\log_{a}x + \log_{a}y = \log_{a}xy$
+        \item $\log_{(a)}(x) - \log_{a}(y) = \log_{(a)}(\frac{x}{y})$
+        % \item $\log_{a}x - \log_{a}y = \log_{a}\frac({x}{y})$
+        \item $\log_{(a)}(x^n) = n\log_{(a)}(x)$
+        % \item $\log_{a}x^n = n\log_{a}x$
+        \item $\log_{(a)}(a) = 1$
+        % \item $\log_{a}a = 1$
+        \item $\log_{(a)}(1) = 0$
+        % \item $\log_{a}1 = 0$
     \end{enumerate}
-    }
+    To use these laws, the bases must be the same $a$
+}
+
+\ex{Laws In Action}{Round to two decimal place
+    \begin{enumerate}
+        \item $\log_{2}2 + \log_{2}5 = \log_{2}10 = 3.32$
+        \item $\log_{5}12 - \log_{5}2 = \log_{5}6 = 1.11$
+        \item $\log_{7}{2^2} = 2 \times \log_{7}2 = 0.71$
+        \item $\log_{84}84 = 1$
+        \item $\log_{153}1 = 0$
+    \end{enumerate}
+}
+
+\nt{some calculators have a default log base of 10}
+
+
+
 \end{document}
