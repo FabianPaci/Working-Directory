@@ -1,4 +1,4 @@
-% use "pdflatex -output-directory=../output Math-Notes.tex" to compile for git
+% use "pdflatex -output-directory=../output Math-Notes.tex" to compile for git (assuming your in . directory)
 \documentclass{report}
 
 \input{preamble}
@@ -21,7 +21,7 @@
 \pagebreak % 1.1
 
 
-\chapter{}
+\chapter{Algebra}
 \section{Indices}
 
 \dfn{Index Laws}{
@@ -51,9 +51,9 @@
 \pagebreak % 1.2
 
 
-\section{Logarithms (logs)}
+\section{Logarithms (Logs)}
 
-\dfn{Principle}{The general equation is: $$log_{(a)}(y) = x \leftrightarrow a^x = y$$ For example: $$log_{10}1 = 0 \leftrightarrow 10^0 = 1$$}
+\dfn{Principle}{The general equation is: \[log_{(a)}(y) = x \leftrightarrow a^x = y\]\\For example:\[log_{10}1 = 0 \leftrightarrow 10^0 = 1\]\\To calculate logarithm: \[\frac{log_{(10)}(y)}{log_{(10)}(a)}\]}
 \dfn{Laws}{
     \begin{enumerate}
     %% contains in and out of brackets
@@ -81,7 +81,53 @@
     \end{enumerate}
 }
 
-\nt{some calculators have a default log base of 10}
+\nt{some calculators have a default log base of 10, this means $\log_{10}(x) = \log_{}(x)$}
+
+
+\pagebreak
+
+
+\section{Quadratic Equations}
+
+\dfn{Formulae}{A quadratic equation is an equation where the highest power is two.\\The standard form quadratic equation: \[ax^2 + bx + c = 0\] where $a,b,c$ are known.\\The quadtratic formula (can only be used by standard form equations):\[x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}\]\\Completing the square \[ax^2 + bx + c = 0\rightarrow \]\\The porabola:\[y = ax^2 + bx + c\]}
+
+
+\chapter{Trigonometry}
+\section{Right-Angled}
+\dfn{Identification}{A triangle is right-angled if it contains a right angle ($90^\circ$): $$
+\begin{tikzpicture}
+    \draw  (0, 0) coordinate (A)
+    -- node[left] {} (0,2) coordinate (C)
+    -- node[above right] {} (3,0) coordinate (B)
+    -- node[below] {}  (0, 0);
+    \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
+    \node at (A)[anchor=north] {};
+    \node at (B)[anchor=north] {};
+    \node at (C)[anchor=south] {};
+\end{tikzpicture}$$
+}
+\dfn{Formulae}{Pythagorean theorem $c^2 = a^2 + b^2$ can find the exact length of the an unknown side given two other known sides.\\\\Trigonometric Ratios are:\\\\Sine:$$\sin\theta = \frac{o}{h}$$\\Cosine:$$\cos\theta = \frac{a}{h}$$\\Tangent:$$\tan\theta = \frac{o}{a}$$\\Where $o$ is the opposite leg $a$ is the adjacent leg, $h$ is the hypotenuse, $\theta$ is the angle.$$
+\begin{tikzpicture}
+    \draw  (0, 0) coordinate (A)
+    -- node[left] {o} (0,2) coordinate (c)
+    -- node[above right] {h} (3,0) coordinate (b)
+    -- node[below] {a}  (0, 0) coordinate (a);
+    \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
+    \node at (a)[anchor=north] {};
+    \node at (b)[anchor=north] {};
+    \node at (c)[anchor=south] {};
+    {angle = b--a--c};
+    pic["$\theta$"]
+\end{tikzpicture}$$ % fix broken theta
+}
+\nt{To remember the Trigonometric ratios, we can use $SOHCAHTOA$.} % SOHCAHTOA explanation later
+
+\pagebreak
+
+\section{Non-Right-Angled}
+
+% TODO: surds
+% TODO: exact triangles
 
 
 
