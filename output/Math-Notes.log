@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  11 NOV 2022 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  12 NOV 2022 07:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1451,12 +1451,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 ] [3] [4]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 
  []
 
@@ -1466,13 +1461,13 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
+Missing character: There is no A in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no B in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no c in font nullfont!
+Missing character: There is no C in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -1481,9 +1476,29 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no " in font nullfont!
 Missing character: There is no " in font nullfont!
 Missing character: There is no ] in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+
+ []
+
 [5
 
-] [6] [7] (../output/Math-Notes.aux)
+] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+
+ []
+
+[7] (../output/Math-Notes.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1493,10 +1508,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37018 strings out of 478238
- 735192 string characters out of 5850455
- 1112342 words of memory out of 5000000
- 54536 multiletter control sequences out of 15000+600000
+ 37039 strings out of 478238
+ 735602 string characters out of 5850455
+ 1115341 words of memory out of 5000000
+ 54552 multiletter control sequences out of 15000+600000
  498816 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,9n,102p,459b,1714s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1509,10 +1524,10 @@ pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
 s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb>
 </usr/share/texmf-dist/fonts/type1/public/newpx/pxsys.pfb>
-Output written on ../output/Math-Notes.pdf (8 pages, 139532 bytes).
+Output written on ../output/Math-Notes.pdf (8 pages, 148751 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 

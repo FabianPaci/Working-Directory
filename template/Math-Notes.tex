@@ -48,7 +48,7 @@
 \nt{Indices are used extremely frequently and there are often multiple laws hidden in each question}
 
 
-\pagebreak % 1.2
+\pagebreak
 
 
 \section{Logarithms (Logs)}
@@ -94,37 +94,71 @@
 
 \chapter{Trigonometry}
 \section{Right-Angled}
-\dfn{Identification}{A triangle is right-angled if it contains a right angle ($90^\circ$): $$
+\dfn{Identification}{A triangle is right-angled if it contains a right angle ($90^\circ$): \[
 \begin{tikzpicture}
     \draw  (0, 0) coordinate (A)
-    -- node[left] {} (0,2) coordinate (C)
-    -- node[above right] {} (3,0) coordinate (B)
+    -- node[left] {} (0,1.5) coordinate (C)
+    -- node[above right] {} (2.5,0) coordinate (B)
     -- node[below] {}  (0, 0);
     \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
     \node at (A)[anchor=north] {};
     \node at (B)[anchor=north] {};
     \node at (C)[anchor=south] {};
-\end{tikzpicture}$$
+\end{tikzpicture}\]
 }
-\dfn{Formulae}{Pythagorean theorem $c^2 = a^2 + b^2$ can find the exact length of the an unknown side given two other known sides.\\\\Trigonometric Ratios are:\\\\Sine:$$\sin\theta = \frac{o}{h}$$\\Cosine:$$\cos\theta = \frac{a}{h}$$\\Tangent:$$\tan\theta = \frac{o}{a}$$\\Where $o$ is the opposite leg $a$ is the adjacent leg, $h$ is the hypotenuse, $\theta$ is the angle.$$
+\dfn{Pythagorean Theorem}{Pythagorean theorem $c^2 = a^2 + b^2$ can find the exact length of the an unknown side given two other known sides.}
+% Add examples
+\dfn{Finding sides}{Trigonometric Ratios are:\\\\Sine:\[\sin\theta = \frac{o}{h}\]\\Cosine:\[\cos\theta = \frac{a}{h}\]\\Tangent:\[\tan\theta = \frac{o}{a}\]\\Where $o$ is the opposite leg $a$ is the adjacent leg, $h$ is the hypotenuse, $\theta$ is the angle.\[
 \begin{tikzpicture}
     \draw  (0, 0) coordinate (A)
     -- node[left] {o} (0,2) coordinate (c)
     -- node[above right] {h} (3,0) coordinate (b)
     -- node[below] {a}  (0, 0) coordinate (a);
     \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
-    \node at (a)[anchor=north] {};
-    \node at (b)[anchor=north] {};
-    \node at (c)[anchor=south] {};
-    {angle = b--a--c};
+    \node at (a)[anchor=north] {A};
+    \node at (b)[anchor=north] {B};
+    \node at (c)[anchor=south] {C};
+    {angle = A--B--C};
     pic["$\theta$"]
-\end{tikzpicture}$$ % fix broken theta
+\end{tikzpicture}\] % fix broken theta
 }
+% Add examples
+\dfn{Finding Angles}{$\theta$ can be found with Inverse Ratios.\\\[\theta = \sin^{-1}{\frac{o}{h}}\]\[\theta = \cos^{-1}{\frac{a}{h}}\]\[\theta = \tan^{-1}{\frac{o}{a}}\]}
 \nt{To remember the Trigonometric ratios, we can use $SOHCAHTOA$.} % SOHCAHTOA explanation later
 
+% Add examples
 \pagebreak
 
 \section{Non-Right-Angled}
+\dfn{Identification}{A triangle is non-right-angled if it does not contain a right angle ($90^\circ$):
+\[
+    \begin{tikzpicture}
+        \draw  (0, 0) coordinate (A)
+        -- node[left] {} (0,1.5) coordinate (c)
+        -- node[above right] {} (2.5,0) coordinate (b)
+        -- node[below] {}  (0, 0) coordinate (a);
+        \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
+        \node at (a)[anchor=north] {};
+        \node at (b)[anchor=north] {};
+        \node at (c)[anchor=south] {};
+    \end{tikzpicture}\]
+\\The general rule for keeping sides and angles uniform in a non-right-angled triangle is:
+\[
+    \begin{tikzpicture}
+        \draw  (-1, 0) coordinate (A)
+        -- node[left] {b} (0,2) coordinate (c)
+        -- node[above right] {a} (4,0) coordinate (b)
+        -- node[below] {c}  (-1, 0) coordinate (a);
+        \node at (a)[anchor=north] {A};
+        \node at (b)[anchor=north] {B};
+        \node at (c)[anchor=south] {C};
+    \end{tikzpicture}
+\]
+}
+\dfn{Sine Rule}{The Sine Rule allows for angles and sides to be found within a non-right-angled triangle. To find a side using the Sine Rule, use:\\\[\frac{a}{\sin{A}} = \frac{b}{\sin{B}} = \frac{c}{\sin{C}}\]\\To find an angle using the Sine Rule, use:\\\[\frac{\sin{A}}{a} = \frac{\sin{B}}{b} = \frac{\sin{C}}{c}\]}
+\nt{Using the Sine Rule requires two known sides/angles and a known side/angle}
+% Add examples
+\dfn{Cosine Rule}{Like the Sine Rule, the Cosine Rule allows for angles and sides to be found within a non-right-angled triangle. The Cosine Rule is:\\\[a^2 = b^2 + c^2 -2ab\cos{A}\]}
 
 % TODO: surds
 % TODO: exact triangles
