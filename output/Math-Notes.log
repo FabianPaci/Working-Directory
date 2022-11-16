@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  15 NOV 2022 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  17 NOV 2022 07:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1455,6 +1455,11 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 ] [3] [4]
 Chapter 2.
 
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
@@ -1496,10 +1501,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37042 strings out of 478238
- 736059 string characters out of 5850455
- 1114647 words of memory out of 5000000
- 54553 multiletter control sequences out of 15000+600000
+ 37041 strings out of 478238
+ 736040 string characters out of 5850455
+ 1115716 words of memory out of 5000000
+ 54552 multiletter control sequences out of 15000+600000
  498816 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,9n,102p,463b,1714s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1512,7 +1517,7 @@ pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
 s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb>
 </usr/share/texmf-dist/fonts/type1/public/newpx/pxsys.pfb>
-Output written on ../output/Math-Notes.pdf (8 pages, 146531 bytes).
+Output written on ../output/Math-Notes.pdf (8 pages, 146970 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams
