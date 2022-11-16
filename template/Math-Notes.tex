@@ -53,20 +53,15 @@
 
 \section{Logarithms (Logs)}
 
-\dfn{Principle}{The general equation is: \[log_{(a)}(y) = x \leftrightarrow a^x = y\]\\For example:\[log_{10}1 = 0 \leftrightarrow 10^0 = 1\]\\To calculate logarithm: \[\frac{log_{(10)}(y)}{log_{(10)}(a)}\]}
+\dfn{Principle}{The general equation is: \[log_{(a)}(y) = x \leftrightarrow a^x = y\]\\For example:\[log_{10}1 = 0 \leftrightarrow 10^0 = 1\]\\To calculate logarithm: \[\frac{log_{10}y}{log_{10}a}\]}
 \dfn{Laws}{
     \begin{enumerate}
     %% contains in and out of brackets
-        \item $\log_{(a)}(x) + \log_{(a)}(y) = \log_{(a)}(xy)$
-        % \item $\log_{a}x + \log_{a}y = \log_{a}xy$
-        \item $\log_{(a)}(x) - \log_{a}(y) = \log_{(a)}(\frac{x}{y})$
-        % \item $\log_{a}x - \log_{a}y = \log_{a}\frac({x}{y})$
-        \item $\log_{(a)}(x^n) = n\log_{(a)}(x)$
-        % \item $\log_{a}x^n = n\log_{a}x$
-        \item $\log_{(a)}(a) = 1$
-        % \item $\log_{a}a = 1$
-        \item $\log_{(a)}(1) = 0$
-        % \item $\log_{a}1 = 0$
+        \item $\log_{a}x + \log_{a}y = \log_{a}xy$
+        \item $\log_{a}x - \log_{a}y = \log_{a}\frac{x}{y}$
+        \item $\log_{a}x^n = n\log_{a}x$
+        \item $\log_{a}a = 1$
+        \item $\log_{a}1 = 0$
     \end{enumerate}
     To use these laws, the bases must be the same $a$
 }
@@ -94,21 +89,7 @@
 
 \chapter{Trigonometry}
 \section{Right-Angled}
-\dfn{Identification}{A triangle is right-angled if it contains a right angle ($90^\circ$): \[
-\begin{tikzpicture}
-    \draw  (0, 0) coordinate (A)
-    -- node[left] {} (0,1.5) coordinate (C)
-    -- node[above right] {} (2.5,0) coordinate (B)
-    -- node[below] {}  (0, 0);
-    \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
-    \node at (A)[anchor=north] {};
-    \node at (B)[anchor=north] {};
-    \node at (C)[anchor=south] {};
-\end{tikzpicture}\]
-}
-\dfn{Pythagorean Theorem}{Pythagorean theorem $c^2 = a^2 + b^2$ can find the exact length of the an unknown side given two other known sides.}
-% Add examples
-\dfn{Finding sides}{Trigonometric Ratios are:\\\\Sine:\[\sin\theta = \frac{o}{h}\]\\Cosine:\[\cos\theta = \frac{a}{h}\]\\Tangent:\[\tan\theta = \frac{o}{a}\]\\Where $o$ is the opposite leg $a$ is the adjacent leg, $h$ is the hypotenuse, $\theta$ is the angle.\[
+\dfn{Identification}{A triangle is right-angled if it contains a right angle ($90^\circ$):\[
 \begin{tikzpicture}
     \draw  (0, 0) coordinate (A)
     -- node[left] {o} (0,2) coordinate (c)
@@ -118,31 +99,20 @@
     \node at (a)[anchor=north] {A};
     \node at (b)[anchor=north] {B};
     \node at (c)[anchor=south] {C};
-    {angle = A--B--C};
-    pic["$\theta$"]
-\end{tikzpicture}\] % fix broken theta
+\end{tikzpicture}
+\]
 }
+\dfn{Formulae}{Pythagorean theorem $c^2 = a^2 + b^2$ can find the exact length of the an unknown side given two other known sides.\\Area}
 % Add examples
-\dfn{Finding Angles}{$\theta$ can be found with Inverse Ratios.\\\[\theta = \sin^{-1}{\frac{o}{h}}\]\[\theta = \cos^{-1}{\frac{a}{h}}\]\[\theta = \tan^{-1}{\frac{o}{a}}\]}
+\dfn{Trigonometric Ratios}{Trigonometric Ratios are ratios that can find angles and sides of a right-angled triangle:\\\\Sine:\[\sin\theta = \frac{o}{h}\]\\Cosine:\[\cos\theta = \frac{a}{h}\]\\Tangent:\[\tan\theta = \frac{o}{a}\]\\$\theta$ can be found with Inverse Ratios.\\\[\theta = \sin^{-1}{\frac{o}{h}}\]\[\theta = \cos^{-1}{\frac{a}{h}}\]\[\theta = \tan^{-1}{\frac{o}{a}}\]}
+% Add examples
 \nt{To remember the Trigonometric ratios, we can use $SOHCAHTOA$.} % SOHCAHTOA explanation later
 
 % Add examples
 \pagebreak
 
 \section{Non-Right-Angled}
-\dfn{Identification}{A triangle is non-right-angled if it does not contain a right angle ($90^\circ$):
-\[
-    \begin{tikzpicture}
-        \draw  (0, 0) coordinate (A)
-        -- node[left] {} (0,1.5) coordinate (c)
-        -- node[above right] {} (2.5,0) coordinate (b)
-        -- node[below] {}  (0, 0) coordinate (a);
-        \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
-        \node at (a)[anchor=north] {};
-        \node at (b)[anchor=north] {};
-        \node at (c)[anchor=south] {};
-    \end{tikzpicture}\]
-\\The general rule for keeping sides and angles uniform in a non-right-angled triangle is:
+\dfn{Identification}{A triangle is non-right-angled if it does not contain a right angle ($90^\circ$)\\\\The general rule for keeping sides and angles uniform in a non-right-angled triangle is:
 \[
     \begin{tikzpicture}
         \draw  (-1, 0) coordinate (A)
