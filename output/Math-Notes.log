@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  17 NOV 2022 07:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  17 NOV 2022 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1455,39 +1455,39 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 ] [3] [4]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 
  []
 
 [5
 
 ] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 
  []
 
@@ -1501,10 +1501,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37041 strings out of 478238
- 736040 string characters out of 5850455
- 1115716 words of memory out of 5000000
- 54552 multiletter control sequences out of 15000+600000
+ 37088 strings out of 478238
+ 736870 string characters out of 5850455
+ 1116336 words of memory out of 5000000
+ 54599 multiletter control sequences out of 15000+600000
  498816 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,9n,102p,463b,1714s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1517,7 +1517,7 @@ pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
 s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb>
 </usr/share/texmf-dist/fonts/type1/public/newpx/pxsys.pfb>
-Output written on ../output/Math-Notes.pdf (8 pages, 146970 bytes).
+Output written on ../output/Math-Notes.pdf (8 pages, 147039 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams

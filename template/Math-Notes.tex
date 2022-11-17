@@ -91,14 +91,27 @@
 \section{Right-Angled}
 \dfn{Identification}{A triangle is right-angled if it contains a right angle ($90^\circ$):\[
 \begin{tikzpicture}
-    \draw  (0, 0) coordinate (A)
-    -- node[left] {o} (0,2) coordinate (c)
-    -- node[above right] {h} (3,0) coordinate (b)
-    -- node[below] {a}  (0, 0) coordinate (a);
-    \draw (0,10pt) -- ++(10pt,0) -- ++(0,-10pt);
-    \node at (a)[anchor=north] {A};
-    \node at (b)[anchor=north] {B};
-    \node at (c)[anchor=south] {C};
+    \draw [line width=1.5pt, fill=gray!2] (0,0) -- (0:3) -- (4,0) -- cycle;
+
+    \coordinate[label=left:$$]  (A) at (0,0);
+    \coordinate[label=right:$$] (B) at (4,0);
+    \coordinate[label=above:$$] (C) at (0,3);
+
+    \coordinate[label=below:$c$](c) at ($ (A)!0.5!(B) $);
+    \coordinate[label=left:$b$] (b) at ($ (A)!0.5!(C) $);
+    \coordinate[label=right:$a$](a) at ($ (B)!0.5!(C) $);
+
+    % right angle
+    \draw (0cm,0cm) rectangle (0.5cm,0.5cm);
+
+    % angle beta
+    \begin{scope}[shift={(4cm,0cm)}]
+        \draw[fill=green!30] (0,0) -- (-180:0.75cm) arc (180:120:0.45cm);
+        \draw (162:1cm) node {$\theta$};
+    \end{scope}
+
+    % the triangle
+    \draw [line width=1.5pt] (A) -- (B) -- (C) -- cycle;
 \end{tikzpicture}
 \]
 }
@@ -131,8 +144,42 @@ The area can be found with the Area Forumla $A = \frac{1}{2}ab\sin{C}$
 % Add examples
 \dfn{Cosine Rule}{Like the Sine Rule, the Cosine Rule allows for angles and sides to be found within a non-right-angled triangle. The Cosine Rule is:\\\[c^2 = a^2 + b^2 -2ab\cos{C}\]\\And to find an angle:\[\cos{C} = \frac{a^2 + b^2 - c^2}{2ab}\]}
 
+% \pagebreak
+
+% \section{Exact Triangles}
+% \dfn{Identification}{Exact Triangles are triangles that have exect trigonometric values for specific angles. \[
+% \begin{tikzpicture}
+%     \draw [line width=1.5pt, fill=gray!2] (0,0) -- (0:3) -- (4,0) -- cycle;
+
+%     \coordinate[label=left:$$]  (A) at (0,0);
+%     \coordinate[label=right:$$] (B) at (3,0);
+%     \coordinate[label=above:$$] (C) at (0,4);
+
+%     \coordinate[label=below:$1$](c) at ($ (A)!0.5!(B) $);
+%     \coordinate[label=left:$\sqrt{3}$](b) at ($ (A)!0.5!(C) $);
+%     \coordinate[label=right:$2$](a) at ($ (B)!0.5!(C) $);
+
+%     % right angle
+%     \draw (0cm,0cm) rectangle (0.5cm,0.5cm);
+
+%     % angle 60
+%     \begin{scope}[shift={(4cm,0cm)}]
+%         \draw[fill=green!30] (-1,0) -- (-180:1.75cm) arc (180:120:0.65cm);
+%         \draw (162:1cm) node {$60$};
+%     \end{scope}
+
+%     % % angle 30
+%     \begin{scope}[shift={(0.7cm,4cm)}]
+%         \draw[fill=blue!30] (0,0) -- (-180:0.75cm) arc (180:120:0.45cm);
+%         \draw (162:1cm) node {$30$};
+%     \end{scope}
+
+%     % the triangle
+%     \draw [line width=1.5pt] (A) -- (B) -- (C) -- cycle;
+% \end{tikzpicture}
+% \]}
+
 % TODO: surds
-% TODO: exact triangles
 
 
 
