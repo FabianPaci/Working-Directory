@@ -2,4 +2,4 @@
 Curated study notes
 
 # Temporary Host
-https://aymey.github.io/Math-Notes/output/Math-Notes.pdf
+[aymey.github.io](https://aymey.github.io/Math-Notes/output/Math-Notes.pdf)
