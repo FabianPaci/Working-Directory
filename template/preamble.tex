@@ -278,26 +278,26 @@
 
 
 %================================
-% CLAIM
+% Glossary
 %================================
 
 \tcbuselibrary{theorems,skins,hooks}
-\newtcbtheorem[number within=section]{claim}{Claim}
+\newtcbtheorem[number within=chapter]{glossary}{Glossary}
 {%
-	enhanced
-	,breakable
-	,colback = myg!10
-	,frame hidden
-	,boxrule = 0sp
-	,borderline west = {2pt}{0pt}{myg}
-	,sharp corners
-	,detach title
-	,before upper = \tcbtitle\par\smallskip
-	,coltitle = myg!85!black
-	,fonttitle = \bfseries\sffamily
-	,description font = \mdseries
-	,separator sign none
-	,segmentation style={solid, myg!85!black}
+	enhanced,
+	breakable,
+	colback = myg!10,
+	frame hidden,
+	boxrule = 0sp,
+	borderline west = {2pt}{0pt}{myg},
+	sharp corners,
+	detach title,
+	before upper = \tcbtitle\par\smallskip,
+	coltitle = myg!85!black,
+	fonttitle = \bfseries\sffamily,
+	description font = \mdseries,
+	separator sign none,
+	segmentation style={solid, myg!85!black},
 }
 {th}
 
@@ -591,7 +591,7 @@
 \newcommand{\cor}[2]{\begin{Corollary}{#1}{}#2\end{Corollary}}
 \newcommand{\mlenma}[2]{\begin{Lenma}{#1}{}#2\end{Lenma}}
 \newcommand{\mprop}[2]{\begin{Prop}{#1}{}#2\end{Prop}}
-\newcommand{\clm}[3]{\begin{claim}{#1}{#2}#3\end{claim}}
+\newcommand{\gls}[3]{\begin{claim}{#1}{#2}#3\end{claim}}
 \newcommand{\wc}[2]{\begin{wconc}{#1}{}\setlength{\parindent}{1cm}#2\end{wconc}}
 \newcommand{\thmcon}[1]{\begin{Theoremcon}{#1}\end{Theoremcon}}
 \newcommand{\ex}[2]{\begin{Example}{#1}{}#2\end{Example}}

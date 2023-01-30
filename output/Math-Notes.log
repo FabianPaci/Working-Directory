@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  17 NOV 2022 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  5 DEC 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,294 +1233,35 @@ File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \c@tcb@cnt@lenma=\count445
 \c@tcb@cnt@Prop=\count446
 \c@tcb@cnt@prop=\count447
-\c@tcb@cnt@claim=\count448
-\c@tcb@cnt@Exercise=\count449
-\c@tcb@cnt@exercise=\count450
-\c@tcb@cnt@Example=\count451
-\c@tcb@cnt@example=\count452
-\c@tcb@cnt@Definition=\count453
-\c@tcb@cnt@definition=\count454
-\c@tcb@cnt@question=\count455
-\c@tcb@cnt@qstion=\count456
-\c@tcb@cnt@wconc=\count457
-
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-calc.code.tex
-File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex
- v1.02, 2012/12/09
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shadows.code.tex
-File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-\pgfbs@fading@count=\count458
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-angles.code.tex
-File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-\c@mylabelcounter=\count459
-\diffdbox=\box141
- (/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
-Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen329
-))
-(./macros.tex) (./letterfonts.tex) (../output/Math-Notes.aux)
-\openout1 = `Math-Notes.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 12.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
- 12.
-
-(/usr/share/texmf-dist/tex/latex/newpx/omlnpxmi.fd
-File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
-)
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 12.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
-12.
-
-(/usr/share/texmf-dist/tex/latex/newpx/unpxexa.fd
-File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
-)
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 12.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
- 12.
-
-(/usr/share/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
-File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
-)
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 12.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
-e 12.
-
-(/usr/share/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
-File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
-)
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(61.42993pt, 491.43513pt, 61.42993pt)
-* v-part:(T,H,B)=(61.42993pt, 676.63455pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=491.43513pt
-* \textheight=676.63455pt
-* \oddsidemargin=-10.84006pt
-* \evensidemargin=-10.84006pt
-* \topmargin=-47.84006pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=14.45377pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count460
-\scratchdimen=\dimen330
-\scratchbox=\box142
-\nofMPsegments=\count461
-\nofMParguments=\count462
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count463
-\MPscratchDim=\dimen331
-\MPnumerator=\count464
-\makeMPintoPDFobject=\count465
-\everyMPtoPDFconversion=\toks54
-) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-Package hyperref Info: Link coloring ON on input line 12.
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
-\c@lstlisting=\count466
-
-(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks55
-\inpenc@posthook=\toks56
-)
-(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+\c@tcb@cnt@glossary=\count448
 
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+! LaTeX Error: Command \glossary already defined.
+               Or name \end... illegal, see p.192 of the manual.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 {th}
+          
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.302 {th}
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-15.
-
-(/usr/share/texmf-dist/tex/latex/newpx/unpxmia.fd
-File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
-)
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-15.
-
-(/usr/share/texmf-dist/tex/latex/newpx/unpxsym.fd
-File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
-)
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-15.
-
-(/usr/share/texmf-dist/tex/latex/newpx/unpxsyc.fd
-File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 18.
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-(../output/Math-Notes.toc
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-\tf@toc=\write5
-\openout5 = `Math-Notes.toc'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 
-      [1
-
-]
-Chapter 1.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 36.
-
-[2
-
-] [3] [4]
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-
- []
-
-[5
-
-] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-
- []
-
-[7] (../output/Math-Notes.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 37088 strings out of 478238
- 736870 string characters out of 5850455
- 1116336 words of memory out of 5000000
- 54599 multiletter control sequences out of 15000+600000
- 498816 words of font info for 113 fonts, out of 8000000 for 9000
+ 34764 strings out of 478238
+ 701282 string characters out of 5850455
+ 1044777 words of memory out of 5000000
+ 52442 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,9n,102p,463b,1714s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/share/texmf
--dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb>
-</usr/share/texmf-dist/fonts/type1/public/newpx/pxsys.pfb>
-Output written on ../output/Math-Notes.pdf (8 pages, 147039 bytes).
-PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 96i,1n,102p,459b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
