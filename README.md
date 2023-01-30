@@ -1,3 +1,6 @@
+# ARCHIVED
+No longer working on this nor will i be updatign it.
+
 # Math-Notes
 Curated study notes
 
